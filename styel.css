@@ -45,11 +45,10 @@ color: #707070;
 font-size: 30px;
 font-weight: 700;
 border-radius: 5px;
-border: 1px solid #FAFAFA;
-transition: transfrom;
+border: 1px solid transparent;
 }
 .amount button:hover{
-    border: solid #FF5959 1px;
+    border: solid #FF5959 2px;
     background-color: #FEE;
     color: #FF5959;
 }
