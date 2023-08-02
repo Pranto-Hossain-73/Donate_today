@@ -1,15 +1,24 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
 }
+.text h1{
+    font-size: 45px;
+}
+.text p{
+    width: 35%;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
 /* section 1 start */
-.sec1{
+.sec1 {
     background-image: url(inages_convert/donation0.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.b-conten{
+.b-conten {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,8 +31,17 @@ body{
     padding-left: 100px;
     padding-bottom: 150px;
     color: #FFF;
+    margin-bottom: 70px;
 }
-.donate{
+.b-conten h1{
+    text-align: center;
+    font-size: 60px;
+}
+.b-conten p{
+    text-align: center;
+    font-size: 18px;
+}
+.donate {
     text-decoration: none;
     background-color: #FF5959;
     color: #FFF;
@@ -32,28 +50,56 @@ body{
 }
 /* section1 end */
 /* d-conten start */
-.d-conten{
+.d-conten {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.amount button{
-cursor: pointer;
-padding: 50px;
-background-color: #FAFAFA;
-color: #707070;
-font-size: 30px;
-font-weight: 700;
-border-radius: 5px;
-border: 1px solid transparent;
+
+.amount button {
+    cursor: pointer;
+    padding: 50px;
+    background-color: #FAFAFA;
+    color: #707070;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    margin: 35px 8px;
 }
-.amount button:hover{
+.amount button:hover {
     border: solid #FF5959 2px;
     background-color: #FEE;
     color: #FF5959;
 }
-.d-conten textarea{
+.d-conten textarea {
     border-bottom: solid#DADADA 5px;
-
 }
 /* d-conten end */
+/* o-conten start */
+.o-conten {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* o-conten end */
+/* sec2 start */
+.sec2 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.column {
+    width: 15%;
+    padding: 20px;
+}
+.color1 {
+    background-color: rgba(79, 157, 166, 0.10);
+}
+.color2 {
+    background-color: rgba(255, 89, 89, 0.10);
+}
+.color3 {
+    background-color: #FFF4D6;
+}
+/* sec2 end */
