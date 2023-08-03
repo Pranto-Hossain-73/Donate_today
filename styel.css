@@ -56,7 +56,17 @@ body {
     align-items: center;
     margin-bottom: 100px;
 }
-
+.other {
+    width: 54%;
+    margin-bottom: 30px;
+}
+.taka{
+    border: none;
+    outline: none;
+    color: #B3B3B3;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
 .amount button {
     cursor: pointer;
     padding: 50px;
