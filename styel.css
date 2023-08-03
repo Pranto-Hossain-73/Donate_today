@@ -21,7 +21,7 @@ body {
 }
 /* sec 1 start */
 .sec1 {
-    background-image: url(images/donation1.jpg);
+    background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -145,6 +145,9 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 95px;
+}
+.g-conten p{
+    text-align: center;
 }
 /* g-conten end */
 /* from start */
