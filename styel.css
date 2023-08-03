@@ -17,6 +17,7 @@ body {
     color: #FFF;
     padding: 15px;
     border-radius: 3px;
+    
 }
 /* sec 1 start */
 .sec1 {
@@ -29,8 +30,6 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: #FFF;
-    padding-top: 200px;
     width: 40%;
     margin: 0 auto;
     padding-top: 150px;
@@ -126,6 +125,7 @@ body {
 .t-conten{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     width: 25%;
 }
 .sec3 img{
