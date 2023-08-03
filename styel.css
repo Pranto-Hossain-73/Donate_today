@@ -18,7 +18,7 @@ body {
     padding: 15px;
     border-radius: 3px;
 }
-/* section 1 start */
+/* sec 1 start */
 .sec1 {
     background-image: url(images/donation1.jpg);
     background-repeat: no-repeat;
@@ -48,7 +48,7 @@ body {
     font-size: 18px;
 }
 
-/* section1 end */
+/* sec1 end */
 /* d-conten start */
 .d-conten {
     display: flex;
@@ -75,10 +75,10 @@ body {
     font-size: 30px;
     font-weight: 700;
     border-radius: 5px;
-    border: 2px solid transparent;
     margin: 35px 8px;
+    border: none;
 }
-.amount button:hover {
+.color{
     border: solid #FF5959 2px;
     background-color: #FEE;
     color: #FF5959;
@@ -131,7 +131,7 @@ body {
 .sec3 img{
     width: 25%;
 }
-.t-conten a{
+.how{
     text-decoration: none;
     background-color: #FF5959;
     color: #FFF;
@@ -164,6 +164,8 @@ body {
     width: 50%;
     background-color: #D9D9D9;
     border: none;
+    font-size: 16px;
+    padding-left: 20px;
 }
 /* from end */
 /* footer start */
